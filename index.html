@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <meta name="description" content="VOLT ARC — 6-in-1 Magnetic Travel Charging Station">
+   <title>VOLT ARC - 6-in-1 Magnetic Travel Charging Station</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+   <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css">
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <div class="announcement" id="announcement">
+      <div class="announcement-inner">
+         <span id="announcementText">Free express shipping over $60 — US · CA · UK · EU · AU</span>
+         <div class="currency-control" id="currencyControl">
+            <button id="currencyBtn" class="currency-btn" type="button" aria-haspopup="listbox"
+               aria-expanded="false"><span id="currencyCode">USD</span><span id="currencySymbol">$</span><i
+                  class="ph ph-caret-down"></i></button>
+            <div class="currency-menu" id="currencyMenu" role="listbox" aria-label="Select currency">
+               <button type="button" data-currency="USD" data-symbol="$">USD <span>$</span></button>
+               <button type="button" data-currency="CAD" data-symbol="$">CAD <span>$</span></button>
+               <button type="button" data-currency="GBP" data-symbol="£">GBP <span>£</span></button>
+               <button type="button" data-currency="EUR" data-symbol="€">EUR <span>€</span></button>
+               <button type="button" data-currency="AUD" data-symbol="$">AUD <span>$</span></button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <header class="site-header" id="siteHeader">
+      <button class="icon-btn mobile-only" id="menuBtn" aria-label="Open menu"><i class="ph ph-list"></i></button>
+      <a class="brand" href="#top"><img src="assets/logo.svg" alt="VOLT ARC"></a>
+      <nav class="desktop-nav">
+         <a href="#bundles">Shop</a>
+         <a href="#technology">Technology</a>
+         <a href="#reviews">Reviews</a>
+         <a href="#faq">Support</a>
+      </nav>
+      <div class="header-actions">
+         <button class="icon-btn" aria-label="Search"><i class="ph ph-magnifying-glass"></i></button>
+         <button class="icon-btn desktop-only" aria-label="Wishlist"><i class="ph ph-heart"></i></button>
+         <button class="icon-btn cart-btn" id="cartButton">
+            <i class="ph ph-shopping-cart-simple"></i> <b id="cartCount">0</b>
+         </button>
+      </div>
+   </header>
+
+   <aside class="drawer menu-drawer" id="menuDrawer" aria-hidden="true"><button class="drawer-close"
+         data-close="menuDrawer" aria-label="Close menu"><i class="ph ph-x"></i></button><a href="#bundles">Shop</a><a
+         href="#technology">Technology</a><a href="#reviews">Reviews</a><a href="#faq">Support</a></aside>
+   <div class="backdrop" id="backdrop"></div>
+
+   <main id="top">
+      <div class="container breadcrumbs">Home <span><i class="ph ph-caret-right"></i></span> Charging <span><i
+               class="ph ph-caret-right"></i></span> <b>VOLT ARC 6-in-1 Magnetic Travel
+            Charger</b></div>
+
+      <section class="container purchase-grid">
+         <div class="gallery reveal">
+            <div class="thumbs" id="thumbs"></div>
+            <div class="gallery-stage" id="galleryStage"><span class="badge">Bestseller · 2,417 reviews</span><span
+                  class="gallery-counter" id="galleryCounter">1 / 7</span><img id="mainImage"
+                  src="assets/gallery-01-hero.jpg" alt="VOLT ARC magnetic travel charging station"></div>
+            <div class="mobile-gallery-dots" id="galleryDots"></div>
+         </div>
+
+         <section class="buy-box" data-product-form>
+            <p class="eyebrow">VOLT ARC · TRAVEL SERIES</p>
+            <h1>6-in-1 Magnetic Travel Charging Station</h1>
+            <a class="rating" href="#reviews"><span class="rating-stars" aria-label="4.8 out of 5 stars"><i
+                     class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                     class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></span><b>4.8</b><span>(2,417
+                  reviews)</span><em>Verified buyers</em></a>
+            <p class="lead">Charge your phone, watch and earbuds from one fold-flat plug - anywhere in the world.</p>
+            <p class="stock" id="stockLine">Low stock - 23 units in the Sand colourway</p>
+            <ul class="benefits">
+               <li><i class="ph ph-check-circle"></i> Free express shipping</li>
+               <li><i class="ph ph-check-circle"></i> 30-day returns</li>
+               <li><i class="ph ph-check-circle"></i> 2-year warranty</li>
+            </ul>
+            <div class="price-block"><strong id="price" data-price-target>$89.00</strong><del
+                  id="comparePrice">$129.00</del><span id="savePill">Save $40</span></div>
+            <small>or 4 interest-free payments of <span id="splitPay">$22.25</span> · Incl. VAT & duties for
+               UK/EU</small>
+            <hr>
+            <div class="option-row">
+               <div><b>COLOUR</b><span id="colourName">Graphite</span></div>
+               <div class="swatches" id="swatches"><button class="swatch graphite selected" data-colour="Graphite"
+                     aria-label="Graphite"></button><button class="swatch sand" data-colour="Sand"
+                     aria-label="Sand"></button><button class="swatch blue" data-colour="Midnight Blue"
+                     aria-label="Midnight Blue"></button></div>
+            </div>
+            <div class="kit-picker"><b>KIT</b>
+               <div id="kitButtons"><button class="kit selected" data-kit="Solo">Solo <span>$89</span></button><button
+                     class="kit" data-kit="Traveller">Traveller <span>$109</span></button><button class="kit popular"
+                     data-kit="Pro">Pro <small>Most popular</small><span>$129</span></button></div>
+            </div>
+            <div class="quantity"><b>QTY</b>
+               <div><button id="qtyMinus" type="button" aria-label="Decrease quantity"><i
+                        class="ph ph-minus"></i></button><input id="qtyInput" value="1" inputmode="numeric"
+                     aria-label="Quantity"><button id="qtyPlus" type="button" aria-label="Increase quantity"><i
+                        class="ph ph-plus"></i></button></div>
+            </div>
+            <button class="primary-btn" id="addToCart">ADD TO CART — <span id="ctaPrice">$89.00</span></button>
+            <button class="secondary-btn" id="buyNow">BUY IT NOW</button>
+            <div class="secure-row"><span><i class="ph ph-lock-key"></i> Secure checkout</span><span
+                  class="payment-icons" aria-label="Accepted payment methods">
+                  <img src="assets/visa.svg" alt="Visa">
+                  <img src="assets/Mastercard.svg" alt="Mastercard">
+                  <img src="assets/American-Express.svg" alt="American Express">
+                  <img src="assets/PayPal.svg" alt="PayPal">
+                  <img src="assets/DinersClub.svg" alt="Diners Club">
+                  <img src="assets/Discover.svg" alt="Discover">
+               </span></div>
+            <p class="delivery" id="deliveryLine">Order in <b id="countdown">04:12:36</b> <i class="ph ph-arrow-right"></i> dispatched today. 
+               <br/>
+               Est. Sep 8-11 to United States.</p>
+            <p class="plug-note" id="plugNote">Ships with your US plug - all four adapters included in Traveller & Pro.</p>
+             <button class="compatibility-option" id="compatibilityOpen" type="button">
+               <span><i class="ph ph-device-mobile"></i> Check device compatibility</span>
+               <i class="ph ph-arrow-up-right"></i>
+            </button>
+            <div class="mini-accordions accordion-group">
+               <button class="accordion-trigger" type="button"><span class="accordion-title"><i
+                        class="ph ph-sliders-horizontal"></i>Specs</span><span class="accordion-icon"><i
+                        class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">65W GaN charging · 10,000mAh internal battery · 18mm fold-flat profile ·
+                  aircraft-grade aluminium.</div>
+               <button class="accordion-trigger" type="button"><span class="accordion-title"><i
+                        class="ph ph-package"></i>What's in the box</span><span class="accordion-icon"><i
+                        class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">Charging station, USB-C cable, selected kit accessories and regional plug
+                  adapters where included.</div>
+               <button class="accordion-trigger" type="button"><span class="accordion-title"><i
+                        class="ph ph-truck"></i>Shipping & returns</span><span class="accordion-icon"><i
+                        class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">
+                  <p class="shipping-summary">Fast regional delivery with a 30-day return window. Select your region
+                     for estimated dispatch, delivery and duties.</p>
+                  <div class="shipping-card">
+                     <div id="regionTabs" class="region-tabs"><button class="active" data-region="US">US</button><button
+                           data-region="CA">CA</button><button data-region="UK">UK</button><button
+                           data-region="EU">EU</button><button data-region="AU">AU</button></div>
+                     <div id="regionContent" class="region-content"></div>
+                  </div>
+                  <p class="shipping-returns"><i class="ph ph-arrow-u-up-left"></i> 30-day returns. Items must be
+                     unused and in their original packaging.</p>
+               </div>
+               <button class="accordion-trigger" type="button"><span class="accordion-title"><i
+                        class="ph ph-shield-check"></i>Warranty</span><span class="accordion-icon"><i
+                        class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">2-year limited warranty against manufacturing defects.</div>
+            </div>
+         </section>
+      </section>
+
+      <section class="trust-strip reveal">
+         <div>
+            <i class="ph ph-airplane-tilt"></i>
+            <article>
+               <b>Free express shipping</b>
+               <small>Over $200</small>
+            </article>
+         </div>
+         <div>
+            <i class="ph ph-arrow-u-up-left"></i>
+            <article>
+               <b>30-day returns</b>
+               <small>Risk-free trial</small>
+            </article>
+         </div>
+         <div>
+            <i class="ph ph-shield-check"></i>
+            <article>
+               <b>2-year warranty</b>
+               <small>Included</small>
+            </article>
+         </div>
+         <div>
+            <i class="ph ph-headset"></i>
+            <article>
+               <b>24/7 human support</b>
+               <small>Real help</small>
+            </article>
+         </div>
+      </section>
+
+      <section class="value-hero reveal">
+         <picture>
+            <source media="(max-width:767px)" srcset="assets/lifestyle-hero-mobile.jpg"><img
+               src="assets/lifestyle-hero-desk.jpg" alt="VOLT ARC charging devices on a hotel nightstand">
+         </picture>
+         <div class="value-copy">
+            <p class="eyebrow">TRAVEL WITHOUT THE CABLE DRAWER</p>
+            <h2>One charger.<br>Everything charged.</h2>
+            <p>Phone, watch and earbuds stay together from hotel check-in to boarding gate.</p>
+            <div><span>65W</span><span>10,000mAh</span><span>340g</span></div>
+         </div>
+      </section>
+
+      <section class="problem-bg">
+      <div class="container section problem reveal">
+         <div>
+            <p class="eyebrow">THE CABLE DRAWER PROBLEM</p>
+            <h2>More gear. More clutter. More things to forget.</h2>
+         </div>
+         <div class="problem-grid">
+            <div class="pain">
+               <h3>Problem</h3>
+               <p><i class="ph ph-x-circle"></i> Tangled cables</p>
+               <p><i class="ph ph-x-circle"></i> Hotel outlet roulette</p>
+               <p><i class="ph ph-x-circle"></i> Dead watch by 3pm</p>
+            </div>
+            <div class="solution">
+               <h3>Solution</h3>
+               <p><i class="ph ph-check-circle"></i> One fold-flat plate</p>
+               <p><i class="ph ph-check-circle"></i> Four plugs, five regions</p>
+               <p><i class="ph ph-check-circle"></i> Three devices at once</p>
+            </div>
+         </div>
+      </div>
+      </section>
+
+      <section class="macro-section">
+         <div class="container">
+            <div class="section-head reveal">
+               <p class="eyebrow">CLOSER LOOK</p>
+               <h2>Details that make cheap plastic feel cheap.</h2>
+            </div>
+            <div class="macro-grid">
+               <figure><img src="assets/detail-hinge.jpg" alt="Precision hinge detail">
+                  <figcaption>Precision knurled hinge</figcaption>
+               </figure>
+               <figure><img src="assets/detail-magnet.jpg" alt="Magnetic charging pad detail">
+                  <figcaption>Magnet ring alignment</figcaption>
+               </figure>
+               <figure><img src="assets/detail-cable.jpg" alt="Braided USB-C cable detail">
+                  <figcaption>Braided USB-C detail</figcaption>
+               </figure>
+            </div>
+         </div>
+      </section>
+
+      <section class="container section" id="technology">
+         <div class="section-head reveal">
+            <p class="eyebrow">BUILT FOR THE WAY YOU TRAVEL</p>
+            <h2>Everything important, engineered into one fold.</h2>
+         </div>
+         <div class="feature-grid" id="featureGrid">
+            <article><i class="feature-icon ph ph-magnet"></i>
+               <h3>Magnetic alignment</h3>
+               <p>Magnetic pads keep compatible devices positioned precisely.</p>
+            </article>
+            <article><i class="feature-icon ph ph-lightning"></i>
+               <h3>65W fast charge</h3>
+               <p>GaN power delivery for fast charging across your travel kit.</p>
+            </article>
+            <article><i class="feature-icon ph ph-battery-charging"></i>
+               <h3>10,000mAh battery</h3>
+               <p>Built-in backup power when the outlet is nowhere nearby.</p>
+            </article>
+            <article><i class="feature-icon ph ph-arrows-in-line-horizontal"></i>
+               <h3>Fold-flat 18mm form</h3>
+               <p>Designed to disappear into a pouch, backpack or carry-on.</p>
+            </article>
+            <article><i class="feature-icon ph ph-plugs-connected"></i>
+               <h3>4 plug adapters</h3>
+               <p>US, UK, EU and AU options for international travel.</p>
+            </article>
+            <article><i class="feature-icon ph ph-cube"></i>
+               <h3>Aluminium shell</h3>
+               <p>Precision metal construction with a premium tactile finish.</p>
+            </article>
+         </div>
+      </section>
+
+      <section class="how">
+      <div class="container section how reveal">
+         <div class="section-head">
+            <p class="eyebrow">HOW IT WORKS</p>
+            <h2>Unfold. Snap on. Go.</h2>
+         </div>
+         <div class="how-grid">
+            <article><b>01</b><img src="assets/how-step-1.jpg" alt="Unfolding the charger">
+               <h3>Unfold</h3>
+               <p>Open the three-panel stand in seconds.</p>
+            </article>
+            <article><b>02</b><img src="assets/how-step-2.jpg" alt="Placing a phone on the charger">
+               <h3>Snap on</h3>
+               <p>Place compatible devices on their charging pads.</p>
+            </article>
+            <article><b>03</b><img src="assets/how-step-3.jpg" alt="Connecting power">
+               <h3>One plug</h3>
+               <p>Connect power and charge your travel essentials together.</p>
+            </article>
+         </div>
+      </div>
+      </section>
+
+      <section class="comparison-bg">
+      <div class="container section comparison reveal">
+         <div class="section-head">
+            <p class="eyebrow">WHY ONE SYSTEM BEATS THREE CHARGERS</p>
+            <h2>Carry less. Charge more.</h2>
+         </div><img class="compare-image" src="assets/compare-visual.jpg"
+            alt="Comparison of multiple chargers versus one folded charger">
+         <div class="table-wrap">
+            <table>
+               <thead>
+                  <tr>
+                     <th>Feature</th>
+                     <th class="highlight">VOLT ARC <small>Best value</small></th>
+                     <th>Generic charger</th>
+                     <th>3 separate chargers</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Devices charged at once</td>
+                     <td class="highlight">3</td>
+                     <td>1-2</td>
+                     <td>3</td>
+                  </tr>
+                  <tr>
+                     <td>Built-in battery</td>
+                     <td class="highlight"><i class="ph ph-check-circle"></i></td>
+                     <td>—</td>
+                     <td>Usually separate</td>
+                  </tr>
+                  <tr>
+                     <td>International plugs</td>
+                     <td class="highlight"><i class="ph ph-check-circle"></i></td>
+                     <td>—</td>
+                     <td>Extra adapters</td>
+                  </tr>
+                  <tr>
+                     <td>Fold-flat travel form</td>
+                     <td class="highlight"><i class="ph ph-check-circle"></i></td>
+                     <td>Sometimes</td>
+                     <td>—</td>
+                  </tr>
+                  <tr>
+                     <td>Warranty</td>
+                     <td class="highlight">2 years</td>
+                     <td>Varies</td>
+                     <td>Varies</td>
+                  </tr>
+                  <tr>
+                     <td>Support</td>
+                     <td class="highlight">24/7 human support</td>
+                     <td>Varies</td>
+                     <td>Multiple brands</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      </section>
+
+      <section class="container section bundles" id="bundles">
+         <div class="section-head reveal">
+            <p class="eyebrow">CHOOSE YOUR KIT</p>
+            <h2>Pick the kit that matches your travel.</h2>
+         </div>
+         <div class="bundle-grid">
+            <article class="bundle-card"><img src="assets/bundle-solo.jpg" alt="Solo kit">
+               <div>
+                  <p>SOLO</p>
+                  <h3>$89</h3><s>$129</s><span>Save $40</span><button type="button" class="bundle-link">Add to Cart <i
+                        class="ph ph-arrow-up-right"></i></button>
+               </div>
+            </article>
+            <article class="bundle-card"><img src="assets/bundle-traveller.jpg" alt="Traveller bundle">
+               <div>
+                  <p>TRAVELLER</p>
+                  <h3>$109</h3><s>$149</s><span>Save $40</span><button type="button" class="bundle-link">Add to Cart <i
+                        class="ph ph-arrow-up-right"></i></button>
+               </div>
+            </article>
+            <article class="bundle-card"><img src="assets/bundle-pro.jpg" alt="Pro bundle">
+               <div>
+                  <p>PRO <em>Most popular</em></p>
+                  <h3>$129</h3><s>$179</s><span>Save $50</span><button type="button" class="bundle-link">Add to Cart <i
+                        class="ph ph-arrow-up-right"></i></button>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <section class="reviews-section" id="reviews">
+         <div class="container reviews-head">
+            <div>
+               <p class="eyebrow">CUSTOMER REVIEWS</p>
+               <h2>Real trips. Real packing wins.</h2>
+            </div>
+            <div class="review-score"><strong>4.8</strong><span class="review-stars" aria-label="4.8 out of 5 stars"><i
+                     class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                     class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i></span><small>Based on 2,417
+                  verified
+                  reviews</small></div>
+         </div>
+         <div class="review-marquee" id="reviewMarquee">
+            <div class="review-track" id="reviewTrack"></div>
+         </div>
+         <!-- <div class="container review-note"><i class="ph ph-pause-circle"></i> Auto-scrolling pauses when you hover over
+            the reviews.</div> -->
+      </section>
+
+      <!-- <section class="container guarantee reveal">
+         <div class="seal">30<br><span>NIGHTS</span></div>
+         <div>
+            <p class="eyebrow">30 NIGHTS, ZERO RISK</p>
+            <h2>Take it on one trip. If it doesn't earn its place, send it back.</h2>
+            <div class="list">
+               <small> <i class="ph ph-truck"></i> Free express shipping</small>
+               <small> <i class="ph ph-arrow-u-up-left"></i> 30-day returns</small>
+               <small> <i class="ph ph-shield-check"></i> 2-year warranty</small>
+            </div>
+            <button class="guarantee-btn" data-scroll-cart>TRY VOLT ARC <i class="ph ph-arrow-right"></i></button>
+         </div>
+      </section> -->
+
+      <section class="container section faq" id="faq">
+         <div class="faq-grid">
+            <div>
+               <p class="eyebrow">FAQ</p>
+               <h2>Questions before checkout?</h2>
+            </div>
+            <div class="accordion-group faq-list">
+               <button class="accordion-trigger" type="button">Will it work with my phone?<span
+                     class="accordion-icon"><i class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">Compatibility depends on the device and charging standard. Use the checker
+                  above
+                  for the prototype guidance.</div>
+               <button class="accordion-trigger" type="button">Can it charge three devices at once?<span
+                     class="accordion-icon"><i class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">The product concept is designed to support phone, watch and earbuds
+                  simultaneously; final allocation depends on the production specification.</div>
+               <button class="accordion-trigger" type="button">Can I carry it on a plane?<span class="accordion-icon"><i
+                        class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">Carry-on rules depend on battery specifications and airline regulations.
+                  Verify
+                  the final certified battery rating before travel.</div>
+               <button class="accordion-trigger" type="button">Which plugs are included?<span class="accordion-icon"><i
+                        class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">Traveller and Pro include the international adapter set shown in the bundle
+                  imagery.</div>
+               <button class="accordion-trigger" type="button">How does the warranty work?<span
+                     class="accordion-icon"><i class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">The prototype uses a 2-year warranty policy; connect this to the final store
+                  policy before launch.</div>
+               <button class="accordion-trigger" type="button">How long does delivery take?<span
+                     class="accordion-icon"><i class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">See the region delivery panel for the prototype delivery windows.</div>
+               <button class="accordion-trigger" type="button">What is the return policy?<span class="accordion-icon"><i
+                        class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">30-day returns are presented in this prototype. Final policy copy should
+                  match
+                  your operational terms.</div>
+               <button class="accordion-trigger" type="button">Is overnight charging safe?<span
+                     class="accordion-icon"><i class="ph ph-plus"></i></span></button>
+               <div class="accordion-panel">Use the final certified product documentation and battery safety guidance
+                  for
+                  launch copy.</div>
+            </div>
+         </div>
+      </section>
+
+      <section class="final-cta">
+         <div class="container final-grid"><img src="assets/final-cta-hero.jpg" alt="VOLT ARC folded charging station">
+            <div>
+               <p class="eyebrow">ONE LAST THING TO PACK</p>
+               <h2>Replace the pile with one clean fold.</h2>
+               <p>Phone, watch and earbuds. One travel-ready charging system.</p>
+               <div class="final-price" id="finalPrice">$89.00</div>
+               <button class="cta-highlight-btn" id="finalAdd">ADD TO CART <i class="ph ph-arrow-right"></i></button>
+               <div class="list">
+                  <small> <i class="ph ph-truck"></i> Free express shipping</small>
+                  <small> <i class="ph ph-arrow-u-up-left"></i> 30-day returns</small>
+                  <small> <i class="ph ph-shield-check"></i> 2-year warranty</small>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer>
+      <div class="container footer-grid">
+         <div>
+            <a class="brand" href="#top">
+               <img src="assets/logo.svg" alt="VOLT ARC">
+            </a>
+            <p>Premium travel charging, designed to pack light.</p>
+            <div class="social-links" aria-label="Follow VOLT ARC">
+               <a href="#" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+               <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+               <a href="#" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+               <a href="#" aria-label="Google"><i class="ph ph-google-logo"></i></a>
+               <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            </div>
+         </div>
+         <div><b>SHOP</b><a href="#bundles">Charging</a><a href="#bundles">Bundles</a></div>
+         <div><b>SUPPORT</b><a href="#faq">FAQ</a><a href="#faq">Contact</a><a href="#faq">Warranty</a></div>
+         <div><b>COMPANY</b><a href="#top">About</a><a href="#reviews">Reviews</a></div>
+         <div class="newsletter"><b>GET TRAVEL NOTES</b>
+            <p>New product and travel updates, occasionally.</p>
+            <form class="newsletter-form"><i class="ph ph-envelope-simple"></i><input type="email"
+                  placeholder="Enter your email" aria-label="Email address"><button type="submit"
+                  aria-label="Subscribe"><i class="ph ph-arrow-right"></i></button></form>
+         </div>
+      </div>
+      <div class="container footer-bottom"><span>© 2026 VOLT ARC</span><span>Prices include VAT for UK/EU where
+            applicable</span><span class="payment-icons" aria-label="Accepted payment methods">
+            <img src="assets/visa.svg" alt="Visa">
+            <img src="assets/Mastercard.svg" alt="Mastercard">
+            <img src="assets/American-Express.svg" alt="American Express">
+            <img src="assets/PayPal.svg" alt="PayPal">
+            <img src="assets/DinersClub.svg" alt="Diners Club">
+            <img src="assets/Discover.svg" alt="Discover">
+         </span></div>
+   </footer>
+
+   <div class="cart-drawer drawer" id="cartDrawer" aria-hidden="true"><button class="drawer-close"
+         data-close="cartDrawer" aria-label="Close cart"><i class="ph ph-x"></i></button>
+      <p class="eyebrow">YOUR BAG</p>
+      <h2>Ready when you are.</h2>
+      <div id="cartItems"></div><button class="primary-btn">CHECKOUT</button>
+   </div>
+   <div class="compat-modal" id="compatModal" aria-hidden="true">
+      <div class="compat-modal-backdrop" data-close-compatibility></div>
+      <section class="compat-modal-card" role="dialog" aria-modal="true" aria-labelledby="compatibilityTitle">
+         <button class="drawer-close" type="button" data-close-compatibility aria-label="Close compatibility checker"><i
+               class="ph ph-x"></i></button>
+         <p class="eyebrow">WILL IT WORK WITH MY DEVICE?</p>
+         <h2 id="compatibilityTitle">Check compatibility before you buy.</h2>
+         <label for="compatibilitySelect">Select your device</label>
+         <select id="compatibilitySelect">
+            <option value="">Select your device</option>
+            <option>iPhone 12 or newer</option>
+            <option>iPhone 11 or older</option>
+            <option>Samsung Galaxy S24 / S23</option>
+            <option>Other Android phone</option>
+         </select>
+         <div id="compatibilityResult" class="compat-result">Choose a device to see the compatibility guidance.</div>
+      </section>
+   </div>
+   <div class="sticky-atc" id="stickyAtc">
+      <div><img src="assets/gallery-01-hero.jpg" alt=""><span><b>VOLT ARC</b><small id="stickyVariant">Graphite /
+               Solo</small></span></div><strong id="stickyPrice">$89.00</strong><button class="primary-btn"
+         id="stickyAdd">ADD TO CART</button>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+
+</html>
